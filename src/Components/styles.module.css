@@ -1,0 +1,38 @@
+   .plusBox{
+   background: #cecece;
+   padding: 10;
+   padding-left: 25;
+   border-radius: 10;
+   margin-bottom: 10;
+   position: relative;
+       }
+
+ .plus{
+position:absolute;
+top:40px;
+left:10px;
+font-weight:1000;
+
+ }
+ .replyBox{
+     display:flex;
+     color:gray
+ }
+ .replyBox>div{
+     margin:20px;
+     
+ }
+ .sidebar {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+  height: 80%;
+  width: 3px;
+  margin: 2px;
+  background: black;
+}
+
+.sidebar :hover {
+  cursor: pointer;
+  background: #cecece;
+}
